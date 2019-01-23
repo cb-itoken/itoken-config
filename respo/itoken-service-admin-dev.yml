@@ -22,8 +22,12 @@ spring:
 server:
   port: 8501
 
+feign:
+  hystrix:
+    enabled: true
+
 mybatis:
-  type-aliases-package: com.cb.itoken.service.admin.domain
+  type-aliases-package: com.cb.itoken.common.domain
   mapper-locations: classpath:mapper/*.xml
 
 eureka:
