@@ -10,7 +10,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/cb-itoken/itoken-config.git
+          uri: https://github.com/cb-itoken/itoken-config-respo.git
           search-paths: respo
           username: cong_bing@163.com
           password: CbGitHub493762
